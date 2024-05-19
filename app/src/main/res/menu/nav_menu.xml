@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="Тесты">
+        <menu>
+            <item
+                android:id="@+id/itemFood"
+                android:icon="@drawable/ic_food_test"
+                android:title="Еда"/>
+            <item
+                android:id="@+id/itemSpace"
+                android:icon="@drawable/ic_space_test"
+                android:title="Космос"/>
+            <item
+                android:id="@+id/itemAnimale"
+                android:icon="@drawable/ic_animale_test"
+                android:title="Животные"/>
+            <item
+                android:id="@+id/itemCountries"
+                android:icon="@drawable/ic_countries_test"
+                android:title="Страны"/>
+        </menu>
+    </item>
+</menu>
